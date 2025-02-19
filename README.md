@@ -1,0 +1,2 @@
+# JavaScript Falsy Value Bug
+This repository demonstrates a common JavaScript bug related to the handling of falsy values.  The `foo` function aims to return 0 if either input `a` or `b` is null, but it incorrectly treats other falsy values as null, leading to unintended behavior. The solution provides a corrected function that explicitly checks for null values.
